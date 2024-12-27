@@ -10,7 +10,7 @@ require('dotenv').config()
 
 
 app.use(cors({
-    origin: 'https://frontend-mira.vercel.app/'
+    origin: 'https://frontend-mira.vercel.app'
 }));
 
 
