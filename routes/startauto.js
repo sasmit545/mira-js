@@ -35,7 +35,9 @@ router.post("/", async (req, res) => {
         for (let recipient of recipients) {
             const placeholders = {
                 "{{first_name}}": recipient.first_name,
+                "{first_name}": recipient.first_name,
                 "{{last_name}}": recipient.last_name,
+                "{last_name}": recipient.last_name,
                 "{{email}}": recipient.email,
             };
             
